@@ -6,7 +6,11 @@ function Home(props: any) {
       <div className="row">
         <h1 className={styles.h1}>Home Page</h1>
         <div className="col">
-          <img className={styles.img} src="./JoelHiltonHeadshot.jpg" />
+          <img
+            className={styles.img}
+            src="./JoelHiltonHeadshot.jpg"
+            alt="Joel's Head"
+          />
         </div>
         <div className="col">
           <h2>Hilton's Movie Collection</h2>

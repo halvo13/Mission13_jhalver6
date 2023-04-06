@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import Home from './Base';
-import MovieList from './Movies';
-import Navigation from './Nav';
+import Home from '../Base';
+import MovieList from '../movies/Movies';
+import Navigation from '../Nav';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Podcast from './Pod';
+import Podcast from '../Pod';
 
 function App() {
   return (
